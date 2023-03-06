@@ -9,7 +9,9 @@ header{
     justify-content: center;
     align-items: center;
     background-color: aqua;
-    height: 150px;
+    height: 80px;
+    max-width: 2000px;
+    margin-inline: auto;
 }
 
 .nav{
@@ -18,8 +20,12 @@ header{
     background-color: gold;
 }
 
+main{
+    max-width: 2000px;
+    margin-inline: auto;
+}
+
 .container{
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,9 +36,10 @@ header{
     background-color: blue;
 }
 
-.pink{
-    width: 700px;
-    height: 350px;
+.rosa{
+    margin: 1rem;
+    width: 800px;
+    height: 250px;
     background-color: palevioletred;
 }
 
@@ -43,13 +50,15 @@ header{
 .azzurro{
     background-color: cornflowerblue;
     height: 380px;
-    flex: 0 0 600px;
+    flex: 0 0 calc(600px - 0.5rem);
+    margin: 1rem;
 }
 
 .fucsia{
     background-color: fuchsia;
     height: 380px;
-    flex: 0 0 400px;
+    flex: 0 0 calc(400px - 0.5rem);
+    margin: 1rem;
 }
 
 .grigio{
@@ -57,13 +66,4 @@ header{
     flex-direction: row-reverse;
 }
 
-.grigio2{
-    background-color: grey;
-    height: 820px;
-}
 
-.verde{
-    background-color: green;
-    height: 800px;
-    width: 1000px;
-}
