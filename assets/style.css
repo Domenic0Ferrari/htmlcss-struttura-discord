@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 150px;
+}
+
+.nav{
+    width: 1000px;
+    height: 50px;
+    background-color: gold;
+}
+
+.container{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blu{
+    background-color: blue;
+}
+
+.pink{
+    width: 700px;
+    height: 350px;
+    background-color: palevioletred;
+}
+
+.bianco{
+    background-color: white;
+}
+
+.azzurro{
+    background-color: cornflowerblue;
+    height: 380px;
+    flex: 0 0 600px;
+}
+
+.fucsia{
+    background-color: fuchsia;
+    height: 380px;
+    flex: 0 0 400px;
+}
+
+.grigio{
+    background-color: grey;
+    flex-direction: row-reverse;
+}
+
+.grigio2{
+    background-color: grey;
+    height: 820px;
+}
+
+.verde{
+    background-color: green;
+    height: 800px;
+    width: 1000px;
+}
