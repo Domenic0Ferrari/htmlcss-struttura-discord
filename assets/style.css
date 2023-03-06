@@ -18,6 +18,7 @@ header{
     height: 50px;
     background-color: gold;
     margin: 1rem;
+    margin-inline: auto;
 }
 
 main{
@@ -80,12 +81,15 @@ main{
     height: 600px;
 }
 
-.nero{
+footer{
     background-color: black;
+    max-width: 2000px;
+    margin-inline: auto;
 }
 
+
 .colonna{
-    height: 380px;
+    height: 500px;
 }
 
 .uno{
@@ -96,4 +100,8 @@ main{
 .due{
     background-color: aquamarine;
     width: 150px;
+} 
+
+hr{
+    border: 1px solid red;
 }
