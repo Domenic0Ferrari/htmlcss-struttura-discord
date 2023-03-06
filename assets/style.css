@@ -79,3 +79,21 @@ main{
     width: 1000px;
     height: 600px;
 }
+
+.nero{
+    background-color: black;
+}
+
+.colonna{
+    height: 380px;
+}
+
+.uno{
+    background-color: salmon;
+    width: 400px;
+}
+
+.due{
+    background-color: aquamarine;
+    width: 150px;
+}
