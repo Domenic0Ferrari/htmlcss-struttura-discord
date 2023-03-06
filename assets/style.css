@@ -9,7 +9,6 @@ header{
     justify-content: center;
     align-items: center;
     background-color: aqua;
-    height: 80px;
     max-width: 2000px;
     margin-inline: auto;
 }
@@ -18,6 +17,7 @@ header{
     width: 1000px;
     height: 50px;
     background-color: gold;
+    margin: 1rem;
 }
 
 main{
@@ -29,7 +29,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
 }
 
 .blu{
@@ -47,18 +46,26 @@ main{
     background-color: white;
 }
 
+.contenitore{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
 .azzurro{
     background-color: cornflowerblue;
     height: 380px;
-    flex: 0 0 calc(600px - 0.5rem);
-    margin: 1rem;
+    width: 600px;
 }
 
 .fucsia{
     background-color: fuchsia;
     height: 380px;
-    flex: 0 0 calc(400px - 0.5rem);
-    margin: 1rem;
+    width: 400px;
 }
 
 .grigio{
